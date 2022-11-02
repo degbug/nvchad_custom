@@ -25,6 +25,7 @@ local sources = {
 
   b.formatting.gofmt,
   b.formatting.rustfmt,
+  b.formatting.google_java_format,
 }
 
 null_ls.setup {

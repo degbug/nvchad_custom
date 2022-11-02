@@ -40,6 +40,8 @@ M.nvimtree = {
   },
 
   renderer = {
+    -- 空目录合并
+    group_empty = true,
     highlight_git = true,
     icons = {
       show = {
